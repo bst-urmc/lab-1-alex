@@ -83,7 +83,7 @@ dino_data %>%
 
 3. Plot `y` vs. `x` for the `star` dataset. You can (and should) reuse code we introduced above, just replace the dataset name with the desired dataset. Then, calculate the correlation coefficient between `x` and `y` for this dataset. How does this value compare to the `r` of `dino`?
 
-*The correlation coefficient is -0.0629611 for the star dataset. It's very similar to the r of dino.*
+*The correlation coefficient is -0.0629611 for the star dataset. It's very similar to the r of dino. Just a little smaller in magnitude.*
 
 ```{r fig.fullwidth=TRUE}
 star_data = datasaurus_dozen %>%
