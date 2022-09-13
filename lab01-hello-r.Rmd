@@ -114,7 +114,7 @@ ggplot(data = cir_data, mapping = aes(x = x, y = y)) +
 
 ```{r}
 cir_data %>%
-  summarize(r = cor(x, y))
+  summarize(r = cor(x, y)) #Correlation coefficient for x and y in circle dataset.
 ```
 
 5. Finally, let's plot all datasets at once. In order to do this we will make use of facetting.
